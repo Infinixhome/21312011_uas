@@ -14,19 +14,19 @@ use App\Http\Controllers\UasController;
 */
 
 // Tampil data
-Route::get('/npm', [UasController::class, 'index'])->name('npm.index');
+Route::get('/21312011', [UasController::class, 'index'])->name('npm.index');
 
 // Form tambah data
-Route::get('/npm/create', [UasController::class, 'create'])->name('npm.create');
+Route::get('/21312011/create', [UasController::class, 'create'])->name('npm.create');
 
 // Proses tambah data
-Route::post('/npm', [UasController::class, 'store'])->name('npm.store');
+Route::post('/21312011', [UasController::class, 'store'])->name('npm.store');
 
 // Form edit data
-Route::get('/npm/{id}/edit', [UasController::class, 'edit'])->name('npm.edit');
+Route::get('/21312011/{id}/edit', [UasController::class, 'edit'])->name('npm.edit');
 
 // Proses edit data
-Route::put('/npm/{id}', [UasController::class, 'update'])->name('npm.update');
+Route::put('/21312011/{id}', [UasController::class, 'update'])->name('npm.update');
 
 // Proses hapus data
 Route::delete('/npm/{id}', [UasController::class, 'destroy'])->name('npm.destroy');
